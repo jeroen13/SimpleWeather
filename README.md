@@ -16,9 +16,10 @@ Basic usage:
 
 ``` SimpleWeather.GetWeather('<name>', '<search param>', '<amount of days>', '<units: metric - imperial>', '<language !SEE WIKI!>', '<timeout in ms>', '<onSuccess func>', '<onError func>');```
 
-It should look like:
+It should look like:  
 ```SimpleWeather.GetWeather('weatherforlondon', 'london,gb', '4', 'metric', 'en', '2000', 'mysuccess', 'myerror');```
 
+```
 <name>: Specifies your Cache name
 <search param>: City name
 <amount of days>: number of days to fetch
@@ -34,7 +35,7 @@ It should look like:
  <onSuccess func>: this function will run when the API successfully retrieves the data (Used for displaying the weather)
  <onError func>: this fuction will run when the API failes to retrieve the data. No connection ??
  
- 
+ ```
  
 
 
