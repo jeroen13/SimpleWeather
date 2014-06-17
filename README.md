@@ -17,7 +17,7 @@ Basic usage:
 
 ``` SimpleWeather.GetWeather('<name>', '<search param>', '<amount of days>', '<units: metric - imperial>', '<language !SEE WIKI!>', '<timeout in ms>', '<onSuccess func>', '<onError func>');```
 
-It should look like:  
+It should look like this:  
 ```SimpleWeather.GetWeather('weatherforlondon', 'london,gb', '4', 'metric', 'en', '2000', 'mysuccess', 'myerror');```
 
 ```
