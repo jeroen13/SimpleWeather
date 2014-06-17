@@ -39,6 +39,9 @@ It should look like this:
  ```
  
 
+Currently Undocumented (Beta Stage):
+====================================
 
+``` SimpleWeather.GetCurrentWeather(); ```
 
 
