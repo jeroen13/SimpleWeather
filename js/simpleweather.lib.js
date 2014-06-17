@@ -25,7 +25,8 @@ var SimpleWeather = {
  					window[oS]();
  				}, 
   				timeout: SW_timeout,
-  				error: function(jqXHR, status, errorThrown){
+  				error: function(e){
+  					throw new Error('[SW.lib] ' + e);
   					throw new Error('[SW.lib] ERROR @ fetching weather - Connection timed out');
   					throw new Error('[SW.lib] Calling onError function: "'+oE+'()"');
  					window[oE]();
