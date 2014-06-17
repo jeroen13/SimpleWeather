@@ -14,6 +14,11 @@
         //Usage: SimpleWeather.GetWeather('<name>', '<search param>', '<amount of days>', '<units: metric - imperial>', '<language !SEE WIKI!>', '<timeout in ms>', '<onSuccess func>', '<onError func>');
     	SimpleWeather.GetWeather('london', 'london,gb', '4', 'metric', 'en', '2000', 'mysuccess', 'myerror');
 
+        //Usage: SimpleWeather.GetWeather('<name>', '<search param>', '<units: metric - imperial>', '<language !SEE WIKI!>', '<timeout in ms>', '<onSuccess func>', '<onError func>');
+
+        // PLEASE NOTE THAT WE USE THE SAME CITY, BUT NOT THE SAME "NAME" !!!
+        SimpleWeather.GetCurrentWeather('london2', 'london,gb', 'metric', 'en', '2000', 'mysuccess', 'myerror');
+
         function mysuccess(){
             alert('Weather Forecast fetched !')
         }
