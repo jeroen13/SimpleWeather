@@ -6,7 +6,6 @@
             <!-- jQuery / jQueryMobile Scripts -->
             <script src="js/code.jquery.com/jquery-1.9.1.min.js"></script>
             <script type="text/javascript" src="js/code.jquery.com/ajax/jquery.min.js"></script>
-            <!--<script src="js/code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
             <!-- SimpleWeather API By Jeroen_13 -->
         	<script src="js/simpleweather.lib.js"></script>
         </head>
@@ -14,7 +13,13 @@
     	<script type="text/javascript">
         //Usage: SimpleWeather.GetWeather('<name>', '<search param>', '<amount of days>', '<units: metric - imperial>', '<language !SEE WIKI!>', '<timeout in ms>', '<onSuccess func>', '<onError func>');
     	SimpleWeather.GetWeather('london', 'london,gb', '4', 'metric', 'en', '2000', 'mysuccess', 'myerror');
-        // http://stackoverflow.com/questions/1723287/calling-a-javascript-function-named-in-a-variable
+
+        function mysuccess(){
+            alert('Weather Forecast fetched !')
+        }
+        function myerror(){
+            alert('Something went wrong :( Please see the console for more info')
+        }
     	</script>
         
     </body>
