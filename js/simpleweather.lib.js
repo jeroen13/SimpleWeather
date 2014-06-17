@@ -1,4 +1,4 @@
-/* Ver 1.1  -- SimpleWeather API By Jeroen_13 -- */
+/* Ver 1.0  -- SimpleWeather API By Jeroen_13 -- */
 
 
 //global api_url
