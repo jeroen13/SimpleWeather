@@ -1,4 +1,4 @@
-SimpleWeather
+SimpleWeather **ALPHA** 
 =============
 
 SimpleWeather, Create Weather Apps and Widgets.
